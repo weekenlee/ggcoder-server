@@ -2,13 +2,13 @@ package logic
 
 import (
 	"bytes"
+	"github.com/guanggu-coder/ggcoder-server/pkg/model"
 	"io/ioutil"
-	"model"
 
 	"github.com/polaris1119/config"
 	"golang.org/x/net/context"
 
-	. "db"
+	. "github.com/guanggu-coder/ggcoder-server/pkg/db"
 )
 
 type InstallLogic struct{}

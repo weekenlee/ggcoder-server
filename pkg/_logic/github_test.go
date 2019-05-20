@@ -4,10 +4,12 @@
 // https://studygolang.com
 // Author: polaris	polaris@studygolang.com
 
+// +build ignore
+
 package logic_test
 
 import (
-	"logic"
+	"github.com/guanggu-coder/ggcoder-server/pkg/logic"
 	"testing"
 
 	"github.com/polaris1119/config"
@@ -79,7 +81,7 @@ func TestIssueEvent(t *testing.T) {
 		  "locked": false,
 		  "assignee": null,
 		  "assignees": [
-	  
+
 		  ],
 		  "milestone": null,
 		  "comments": 1,

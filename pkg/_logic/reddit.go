@@ -16,8 +16,8 @@ import (
 	"strings"
 	"time"
 
-	. "db"
-	"model"
+	. "github.com/guanggu-coder/ggcoder-server/pkg/db"
+	"github.com/guanggu-coder/ggcoder-server/pkg/model"
 
 	"github.com/PuerkitoBio/goquery"
 	"github.com/polaris1119/config"

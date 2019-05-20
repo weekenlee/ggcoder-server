@@ -7,9 +7,9 @@
 package logic
 
 import (
-	"model"
+	"github.com/guanggu-coder/ggcoder-server/pkg/model"
 
-	. "db"
+	. "github.com/guanggu-coder/ggcoder-server/pkg/db"
 
 	"github.com/polaris1119/set"
 	"golang.org/x/net/context"

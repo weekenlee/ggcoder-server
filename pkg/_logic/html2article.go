@@ -7,12 +7,12 @@
 package logic
 
 import (
-	"model"
+	"github.com/guanggu-coder/ggcoder-server/pkg/model"
 	"net/url"
 	"strings"
 	"time"
 
-	. "db"
+	. "github.com/guanggu-coder/ggcoder-server/pkg/db"
 
 	"github.com/polaris1119/logger"
 	"github.com/sundy-li/html2article"

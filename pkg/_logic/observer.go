@@ -8,7 +8,7 @@ package logic
 
 import (
 	"fmt"
-	"model"
+	"github.com/guanggu-coder/ggcoder-server/pkg/model"
 	"unicode/utf8"
 )
 

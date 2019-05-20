@@ -8,12 +8,12 @@ package logic
 
 import (
 	"context"
-	"model"
+	"github.com/guanggu-coder/ggcoder-server/pkg/model"
+	"github.com/guanggu-coder/ggcoder-server/pkg/util"
 	"strconv"
 	"time"
-	"util"
 
-	. "db"
+	. "github.com/guanggu-coder/ggcoder-server/pkg/db"
 
 	"github.com/go-xorm/xorm"
 	"github.com/polaris1119/set"

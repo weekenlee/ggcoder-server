@@ -7,11 +7,11 @@
 package logic
 
 import (
-	. "db"
 	"encoding/json"
 	"errors"
+	. "github.com/guanggu-coder/ggcoder-server/pkg/db"
+	"github.com/guanggu-coder/ggcoder-server/pkg/model"
 	"io/ioutil"
-	"model"
 
 	"github.com/polaris1119/logger"
 

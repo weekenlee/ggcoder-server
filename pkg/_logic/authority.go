@@ -7,12 +7,12 @@
 package logic
 
 import (
-	"global"
-	"model"
+	"github.com/guanggu-coder/ggcoder-server/pkg/global"
+	"github.com/guanggu-coder/ggcoder-server/pkg/model"
 	"net/url"
 	"strconv"
 
-	. "db"
+	. "github.com/guanggu-coder/ggcoder-server/pkg/db"
 
 	"github.com/polaris1119/logger"
 	"golang.org/x/net/context"

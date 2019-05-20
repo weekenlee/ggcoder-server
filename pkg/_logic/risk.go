@@ -7,8 +7,8 @@
 package logic
 
 import (
-	. "db"
-	"model"
+	. "github.com/guanggu-coder/ggcoder-server/pkg/db"
+	"github.com/guanggu-coder/ggcoder-server/pkg/model"
 
 	"github.com/polaris1119/nosql"
 )

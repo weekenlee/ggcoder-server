@@ -10,11 +10,11 @@ import (
 	"errors"
 	"fmt"
 
-	. "db"
+	. "github.com/guanggu-coder/ggcoder-server/pkg/db"
 
 	"golang.org/x/net/context"
 
-	"model"
+	"github.com/guanggu-coder/ggcoder-server/pkg/model"
 )
 
 type LikeLogic struct{}

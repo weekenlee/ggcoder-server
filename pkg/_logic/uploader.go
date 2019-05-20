@@ -10,6 +10,7 @@ import (
 	"bytes"
 	"encoding/json"
 	"errors"
+	"github.com/guanggu-coder/ggcoder-server/pkg/model"
 	"image"
 	_ "image/gif"
 	_ "image/jpeg"
@@ -17,7 +18,6 @@ import (
 	gio "io"
 	"io/ioutil"
 	"mime"
-	"model"
 	"net/http"
 	"path/filepath"
 	"strings"
@@ -26,7 +26,7 @@ import (
 
 	"golang.org/x/net/context"
 
-	. "db"
+	. "github.com/guanggu-coder/ggcoder-server/pkg/db"
 
 	"github.com/polaris1119/config"
 	"github.com/polaris1119/goutils"
@@ -188,7 +188,7 @@ func (this *UploaderLogic) TransferUrl(ctx context.Context, origUrl string, pref
 	}
 
 	if !strings.HasPrefix(origUrl, "http") {
-		origUrl = "https:"+origUrl
+		origUrl = "https:" + origUrl
 	}
 
 	resp, err := http.Get(origUrl)

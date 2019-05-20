@@ -7,12 +7,12 @@
 package logic
 
 import (
-	. "db"
 	"errors"
 	"fmt"
+	. "github.com/guanggu-coder/ggcoder-server/pkg/db"
+	"github.com/guanggu-coder/ggcoder-server/pkg/model"
 	"math"
 	"math/rand"
-	"model"
 	"strconv"
 	"time"
 

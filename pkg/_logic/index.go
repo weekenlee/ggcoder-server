@@ -7,7 +7,7 @@
 package logic
 
 import (
-	"model"
+	"github.com/guanggu-coder/ggcoder-server/pkg/model"
 	"strconv"
 	"strings"
 

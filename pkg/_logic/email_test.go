@@ -1,10 +1,12 @@
+// +build ignore
+
 package logic_test
 
 import (
 	. "github.com/polaris1119/config"
 	"github.com/polaris1119/logger"
 
-	"logic"
+	"github.com/guanggu-coder/ggcoder-server/pkg/logic"
 	"testing"
 )
 

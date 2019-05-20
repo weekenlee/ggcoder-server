@@ -7,17 +7,17 @@
 package logic
 
 import (
+	"github.com/guanggu-coder/ggcoder-server/pkg/util"
 	"os"
 	"strconv"
 	"text/template"
 	"time"
-	"util"
 
 	"github.com/polaris1119/config"
 	"github.com/polaris1119/logger"
 
-	. "db"
-	"model"
+	. "github.com/guanggu-coder/ggcoder-server/pkg/db"
+	"github.com/guanggu-coder/ggcoder-server/pkg/model"
 )
 
 // 自定义模板函数

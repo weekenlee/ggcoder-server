@@ -10,7 +10,7 @@ import (
 	"bytes"
 	"crypto/tls"
 	"fmt"
-	"global"
+	"github.com/guanggu-coder/ggcoder-server/pkg/global"
 	"html/template"
 	"net/smtp"
 	"strings"
@@ -21,9 +21,9 @@ import (
 	"github.com/polaris1119/goutils"
 	"github.com/polaris1119/logger"
 
-	. "db"
-	"model"
-	"util"
+	. "github.com/guanggu-coder/ggcoder-server/pkg/db"
+	"github.com/guanggu-coder/ggcoder-server/pkg/model"
+	"github.com/guanggu-coder/ggcoder-server/pkg/util"
 )
 
 type EmailLogic struct{}

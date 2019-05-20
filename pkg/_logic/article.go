@@ -7,11 +7,11 @@
 package logic
 
 import (
-	. "db"
 	"errors"
 	"fmt"
-	"global"
-	"model"
+	. "github.com/guanggu-coder/ggcoder-server/pkg/db"
+	"github.com/guanggu-coder/ggcoder-server/pkg/global"
+	"github.com/guanggu-coder/ggcoder-server/pkg/model"
 	"net/url"
 	"regexp"
 	"strconv"

@@ -4,11 +4,13 @@
 // http://studygolang.com
 // Author:polaris	polaris@studygolang.com
 
+// +build ignore
+
 package logic_test
 
 import (
-	"logic"
-	"model"
+	"github.com/guanggu-coder/ggcoder-server/pkg/logic"
+	"github.com/guanggu-coder/ggcoder-server/pkg/model"
 	"reflect"
 	"testing"
 

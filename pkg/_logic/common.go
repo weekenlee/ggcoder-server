@@ -9,12 +9,12 @@ package logic
 import (
 	"errors"
 	"fmt"
-	"model"
+	"github.com/guanggu-coder/ggcoder-server/pkg/model"
+	"github.com/guanggu-coder/ggcoder-server/pkg/util"
 	"os"
 	"regexp"
 	"strconv"
 	"time"
-	"util"
 
 	"github.com/gorilla/schema"
 	"github.com/polaris1119/goutils"

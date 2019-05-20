@@ -8,17 +8,17 @@ package logic
 
 import (
 	"errors"
-	"global"
-	"model"
+	"github.com/guanggu-coder/ggcoder-server/pkg/global"
+	"github.com/guanggu-coder/ggcoder-server/pkg/model"
+	"github.com/guanggu-coder/ggcoder-server/pkg/util"
 	"net/url"
 	"strings"
-	"util"
 
 	"github.com/polaris1119/set"
 	"github.com/polaris1119/slices"
 	"golang.org/x/net/context"
 
-	. "db"
+	. "github.com/guanggu-coder/ggcoder-server/pkg/db"
 
 	"github.com/polaris1119/goutils"
 )

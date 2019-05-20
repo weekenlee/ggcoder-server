@@ -7,13 +7,13 @@
 package logic
 
 import (
-	. "db"
 	"encoding/json"
 	"errors"
+	. "github.com/guanggu-coder/ggcoder-server/pkg/db"
 	"net/url"
 	"strings"
 
-	"model"
+	"github.com/guanggu-coder/ggcoder-server/pkg/model"
 
 	"github.com/polaris1119/goutils"
 	"golang.org/x/net/context"

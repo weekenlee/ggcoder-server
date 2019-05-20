@@ -7,9 +7,9 @@
 package logic
 
 import (
-	. "db"
 	"errors"
-	"model"
+	. "github.com/guanggu-coder/ggcoder-server/pkg/db"
+	"github.com/guanggu-coder/ggcoder-server/pkg/model"
 	"net/url"
 	"strconv"
 	"strings"

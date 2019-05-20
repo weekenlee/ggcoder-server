@@ -8,15 +8,15 @@ package logic
 
 import (
 	"fmt"
+	"github.com/guanggu-coder/ggcoder-server/pkg/model"
 	"html/template"
 	"math"
-	"model"
 	"net/url"
 	"regexp"
 	"strings"
 	"time"
 
-	. "db"
+	. "github.com/guanggu-coder/ggcoder-server/pkg/db"
 
 	"github.com/fatih/structs"
 	"github.com/polaris1119/goutils"

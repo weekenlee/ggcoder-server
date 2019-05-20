@@ -12,8 +12,8 @@ import (
 	"strconv"
 	"strings"
 
-	. "db"
-	"model"
+	. "github.com/guanggu-coder/ggcoder-server/pkg/db"
+	"github.com/guanggu-coder/ggcoder-server/pkg/model"
 
 	"golang.org/x/net/context"
 

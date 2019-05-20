@@ -7,11 +7,11 @@
 package logic
 
 import (
-	. "db"
 	"errors"
 	"fmt"
+	. "github.com/guanggu-coder/ggcoder-server/pkg/db"
+	"github.com/guanggu-coder/ggcoder-server/pkg/model"
 	"io/ioutil"
-	"model"
 	"net/http"
 	"os"
 	"strings"

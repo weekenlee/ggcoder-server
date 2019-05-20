@@ -9,12 +9,12 @@ package logic
 import (
 	"errors"
 	"fmt"
+	"github.com/guanggu-coder/ggcoder-server/pkg/model"
+	"github.com/guanggu-coder/ggcoder-server/pkg/util"
 	"math/rand"
-	"model"
 	"net/url"
 	"strings"
 	"time"
-	"util"
 
 	"github.com/polaris1119/times"
 
@@ -27,7 +27,7 @@ import (
 	"github.com/polaris1119/logger"
 	"golang.org/x/net/context"
 
-	. "db"
+	. "github.com/guanggu-coder/ggcoder-server/pkg/db"
 )
 
 type UserLogic struct{}

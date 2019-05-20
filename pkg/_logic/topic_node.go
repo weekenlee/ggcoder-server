@@ -8,8 +8,8 @@ package logic
 
 import (
 	"context"
-	. "db"
-	"model"
+	. "github.com/guanggu-coder/ggcoder-server/pkg/db"
+	"github.com/guanggu-coder/ggcoder-server/pkg/model"
 	"net/url"
 
 	"github.com/polaris1119/goutils"

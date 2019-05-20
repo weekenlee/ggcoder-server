@@ -9,12 +9,12 @@ package logic
 import (
 	"errors"
 	"fmt"
-	"model"
+	"github.com/guanggu-coder/ggcoder-server/pkg/model"
+	"github.com/guanggu-coder/ggcoder-server/pkg/util"
 	"net/url"
 	"time"
-	"util"
 
-	. "db"
+	. "github.com/guanggu-coder/ggcoder-server/pkg/db"
 
 	"github.com/garyburd/redigo/redis"
 	"github.com/go-xorm/xorm"

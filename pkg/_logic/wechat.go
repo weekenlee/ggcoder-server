@@ -10,12 +10,12 @@ import (
 	"encoding/xml"
 	"errors"
 	"fmt"
-	"model"
+	"github.com/guanggu-coder/ggcoder-server/pkg/model"
+	"github.com/guanggu-coder/ggcoder-server/pkg/util"
 	"strings"
 	"time"
-	"util"
 
-	. "db"
+	. "github.com/guanggu-coder/ggcoder-server/pkg/db"
 
 	"github.com/tidwall/gjson"
 

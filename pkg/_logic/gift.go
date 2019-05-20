@@ -10,10 +10,10 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"model"
+	"github.com/guanggu-coder/ggcoder-server/pkg/model"
 	"time"
 
-	. "db"
+	. "github.com/guanggu-coder/ggcoder-server/pkg/db"
 
 	"github.com/go-xorm/xorm"
 )

@@ -12,8 +12,8 @@ import (
 
 	"github.com/polaris1119/logger"
 
-	. "db"
-	"model"
+	. "github.com/guanggu-coder/ggcoder-server/pkg/db"
+	"github.com/guanggu-coder/ggcoder-server/pkg/model"
 )
 
 // 常驻内存数据（多实例部署时，数据同步会有问题）

@@ -9,10 +9,10 @@ package logic
 import (
 	"context"
 	"fmt"
-	"model"
+	"github.com/guanggu-coder/ggcoder-server/pkg/model"
 	"time"
 
-	. "db"
+	. "github.com/guanggu-coder/ggcoder-server/pkg/db"
 
 	"github.com/garyburd/redigo/redis"
 	"github.com/polaris1119/logger"

@@ -8,10 +8,10 @@ package logic
 
 import (
 	"context"
-	"model"
+	"github.com/guanggu-coder/ggcoder-server/pkg/model"
 	"time"
 
-	. "db"
+	. "github.com/guanggu-coder/ggcoder-server/pkg/db"
 )
 
 type GCTTLogic struct{}
