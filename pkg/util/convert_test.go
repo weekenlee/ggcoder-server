@@ -4,11 +4,13 @@
 // http://studygolang.com
 // Author: polaris	polaris@studygolang.com
 
+// +build ignore
+
 package util_test
 
 import (
 	"testing"
-	
+
 	. "github.com/guanggu-coder/ggcoder-server/pkg/util"
 )
 
