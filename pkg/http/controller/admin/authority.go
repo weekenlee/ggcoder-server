@@ -7,7 +7,7 @@
 package admin
 
 import (
-	"logic"
+	"github.com/guanggu-coder/ggcoder-server/pkg/logic"
 	"net/http"
 
 	"github.com/labstack/echo"

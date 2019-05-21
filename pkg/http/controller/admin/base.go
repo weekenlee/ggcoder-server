@@ -8,10 +8,10 @@ package admin
 
 import (
 	"encoding/json"
-	"logic"
+	"github.com/guanggu-coder/ggcoder-server/pkg/logic"
 	"net/http"
 
-	. "http"
+	. "github.com/guanggu-coder/ggcoder-server/pkg/http"
 
 	"github.com/labstack/echo"
 	"github.com/polaris1119/goutils"

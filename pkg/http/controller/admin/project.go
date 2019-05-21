@@ -7,8 +7,8 @@
 package admin
 
 import (
-	"logic"
-	"model"
+	"github.com/guanggu-coder/ggcoder-server/pkg/logic"
+	"github.com/guanggu-coder/ggcoder-server/pkg/model"
 	"net/http"
 	"strings"
 

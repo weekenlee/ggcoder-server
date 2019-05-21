@@ -7,13 +7,13 @@
 package app
 
 import (
-	"logic"
-	"model"
+	"github.com/guanggu-coder/ggcoder-server/pkg/logic"
+	"github.com/guanggu-coder/ggcoder-server/pkg/model"
 
 	"github.com/labstack/echo"
 
-	. "http"
-	. "http/internal/helper"
+	. "github.com/guanggu-coder/ggcoder-server/pkg/http"
+	. "github.com/guanggu-coder/ggcoder-server/pkg/http/internal/helper"
 )
 
 type UserController struct{}

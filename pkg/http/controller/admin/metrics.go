@@ -8,8 +8,8 @@ package admin
 
 import (
 	"expvar"
-	"global"
-	"logic"
+	"github.com/guanggu-coder/ggcoder-server/pkg/global"
+	"github.com/guanggu-coder/ggcoder-server/pkg/logic"
 	"net/http"
 	"strconv"
 	"time"
@@ -18,7 +18,7 @@ import (
 
 	"github.com/polaris1119/goutils"
 
-	. "http"
+	. "github.com/guanggu-coder/ggcoder-server/pkg/http"
 )
 
 var (

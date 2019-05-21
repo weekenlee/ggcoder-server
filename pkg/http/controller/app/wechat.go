@@ -7,13 +7,13 @@
 package app
 
 import (
-	"logic"
+	"github.com/guanggu-coder/ggcoder-server/pkg/logic"
 	"net/url"
 	"strconv"
 
 	"github.com/labstack/echo"
 
-	. "http"
+	. "github.com/guanggu-coder/ggcoder-server/pkg/http"
 )
 
 type WechatController struct{}

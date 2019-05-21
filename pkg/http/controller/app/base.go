@@ -8,14 +8,14 @@ package app
 
 import (
 	"encoding/json"
-	"logic"
+	"github.com/guanggu-coder/ggcoder-server/pkg/logic"
 	"net/http"
 
 	"github.com/labstack/echo"
 	"github.com/polaris1119/logger"
 	"github.com/polaris1119/nosql"
 
-	. "http"
+	. "github.com/guanggu-coder/ggcoder-server/pkg/http"
 )
 
 const perPage = 12

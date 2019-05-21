@@ -7,12 +7,12 @@
 package app
 
 import (
-	"logic"
+	"github.com/guanggu-coder/ggcoder-server/pkg/logic"
 
 	"github.com/labstack/echo"
 	"github.com/polaris1119/goutils"
 
-	. "http"
+	. "github.com/guanggu-coder/ggcoder-server/pkg/http"
 )
 
 type IndexController struct{}
