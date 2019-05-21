@@ -8,10 +8,10 @@ package controller
 
 import (
 	"bytes"
-	"html/template"
 	"github.com/guanggu-coder/ggcoder-server/pkg/logic"
-	"math/rand"
 	"github.com/guanggu-coder/ggcoder-server/pkg/model"
+	"html/template"
+	"math/rand"
 	"net/http"
 	"net/url"
 	"strings"

@@ -9,9 +9,9 @@ package controller
 import (
 	"github.com/guanggu-coder/ggcoder-server/pkg/http/middleware"
 	"github.com/guanggu-coder/ggcoder-server/pkg/logic"
+	"github.com/guanggu-coder/ggcoder-server/pkg/util"
 	"net/http"
 	"strings"
-	"github.com/guanggu-coder/ggcoder-server/pkg/util"
 
 	"github.com/dchest/captcha"
 	"github.com/labstack/echo"
@@ -19,9 +19,9 @@ import (
 	"github.com/polaris1119/goutils"
 	"github.com/polaris1119/logger"
 
-	"html/template"
 	. "github.com/guanggu-coder/ggcoder-server/pkg/http"
 	"github.com/guanggu-coder/ggcoder-server/pkg/model"
+	"html/template"
 )
 
 // 在需要评论（喜欢）且要回调的地方注册评论（喜欢）对象

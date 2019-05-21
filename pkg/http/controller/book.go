@@ -7,9 +7,9 @@
 package controller
 
 import (
-	"html/template"
 	"github.com/guanggu-coder/ggcoder-server/pkg/http/middleware"
 	"github.com/guanggu-coder/ggcoder-server/pkg/logic"
+	"html/template"
 	"net/http"
 
 	"github.com/labstack/echo"

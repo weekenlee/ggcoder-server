@@ -9,8 +9,8 @@ package middleware
 import (
 	"github.com/guanggu-coder/ggcoder-server/pkg/logic"
 	"github.com/guanggu-coder/ggcoder-server/pkg/model"
-	"net/http"
 	"github.com/guanggu-coder/ggcoder-server/pkg/util"
+	"net/http"
 
 	"github.com/dchest/captcha"
 	"github.com/labstack/echo"

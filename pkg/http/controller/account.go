@@ -7,16 +7,16 @@
 package controller
 
 import (
-	"html/template"
 	. "github.com/guanggu-coder/ggcoder-server/pkg/http/internal/helper"
 	"github.com/guanggu-coder/ggcoder-server/pkg/http/middleware"
 	"github.com/guanggu-coder/ggcoder-server/pkg/logic"
 	"github.com/guanggu-coder/ggcoder-server/pkg/model"
+	"github.com/guanggu-coder/ggcoder-server/pkg/util"
+	"html/template"
 	"net/http"
 	"net/url"
 	"strings"
 	"time"
-	"github.com/guanggu-coder/ggcoder-server/pkg/util"
 
 	. "github.com/guanggu-coder/ggcoder-server/pkg/http"
 
