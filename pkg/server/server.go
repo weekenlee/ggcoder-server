@@ -14,7 +14,7 @@ import (
 	"os"
 	"time"
 
-	"logic"
+	"github.com/guanggu-coder/ggcoder-server/pkg/logic"
 
 	"github.com/polaris1119/config"
 	"github.com/polaris1119/logger"

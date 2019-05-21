@@ -43,6 +43,7 @@ require (
 	github.com/qiniu/api.v6 v6.0.9+incompatible
 	github.com/qiniu/bytes v0.0.0-20140728010635-4887e7b2bde3 // indirect
 	github.com/qiniu/rpc v0.0.0-20140728010754-30c22466d920 // indirect
+	github.com/robfig/cron v1.1.0
 	github.com/ssor/bom v0.0.0-20170718123548-6386211fdfcf // indirect
 	github.com/sundy-li/html2article v0.0.0-20170724020440-d0b6c083441f
 	github.com/tidwall/gjson v1.2.1
