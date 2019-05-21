@@ -7,17 +7,17 @@
 package middleware
 
 import (
-	"db"
-	"logic"
-	"model"
+	"github.com/guanggu-coder/ggcoder-server/pkg/db"
+	"github.com/guanggu-coder/ggcoder-server/pkg/logic"
+	"github.com/guanggu-coder/ggcoder-server/pkg/model"
 	"net/http"
 	"net/url"
 	"strconv"
 	"strings"
 	"time"
-	"util"
+	"github.com/guanggu-coder/ggcoder-server/pkg/util"
 
-	. "http"
+	. "github.com/guanggu-coder/ggcoder-server/pkg/http"
 
 	"github.com/gorilla/context"
 	"github.com/labstack/echo"

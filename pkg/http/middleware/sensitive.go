@@ -7,11 +7,11 @@
 package middleware
 
 import (
-	"logic"
+	"github.com/guanggu-coder/ggcoder-server/pkg/logic"
 	"net/http"
 	"strings"
 
-	"model"
+	"github.com/guanggu-coder/ggcoder-server/pkg/model"
 
 	"github.com/labstack/echo"
 	"github.com/labstack/echo/engine/standard"

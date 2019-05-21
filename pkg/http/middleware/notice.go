@@ -8,8 +8,8 @@ package middleware
 
 import (
 	"fmt"
-	"logic"
-	"model"
+	"github.com/guanggu-coder/ggcoder-server/pkg/logic"
+	"github.com/guanggu-coder/ggcoder-server/pkg/model"
 
 	"github.com/labstack/echo"
 )

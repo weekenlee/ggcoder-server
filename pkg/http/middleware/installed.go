@@ -7,7 +7,7 @@
 package middleware
 
 import (
-	"db"
+	"github.com/guanggu-coder/ggcoder-server/pkg/db"
 	"net/http"
 	"strings"
 

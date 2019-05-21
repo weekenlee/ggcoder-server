@@ -16,7 +16,9 @@ require (
 	github.com/go-xorm/core v0.6.2
 	github.com/go-xorm/xorm v0.7.1
 	github.com/golang/groupcache v0.0.0-20190129154638-5b532d6fd5ef // indirect
+	github.com/gorilla/context v1.1.1
 	github.com/gorilla/schema v1.1.0
+	github.com/gorilla/sessions v1.1.3
 	github.com/huichen/sego v0.0.0-20180617034105-3f3c8a8cfacc // indirect
 	github.com/jaytaylor/html2text v0.0.0-20180606194806-57d518f124b0
 	github.com/jmcvetta/randutil v0.0.0-20150817122601-2bb1b664bcff // indirect
@@ -44,6 +46,7 @@ require (
 	github.com/tidwall/gjson v1.2.1
 	github.com/tidwall/match v1.0.1 // indirect
 	github.com/tidwall/pretty v0.0.0-20190325153808-1166b9ac2b65 // indirect
+	github.com/twinj/uuid v1.0.0
 	github.com/valyala/fasttemplate v1.0.1 // indirect
 	golang.org/x/crypto v0.0.0-20190513172903-22d7a77e9e5f // indirect
 	golang.org/x/net v0.0.0-20190404232315-eb5bcb51f2a3

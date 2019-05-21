@@ -7,7 +7,7 @@
 package middleware
 
 import (
-	"model"
+	"github.com/guanggu-coder/ggcoder-server/pkg/model"
 	"net/http"
 
 	"github.com/labstack/echo"

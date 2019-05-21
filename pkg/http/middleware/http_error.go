@@ -8,9 +8,9 @@ package middleware
 
 import (
 	"net/http"
-	"util"
+	"github.com/guanggu-coder/ggcoder-server/pkg/util"
 
-	. "http"
+	. "github.com/guanggu-coder/ggcoder-server/pkg/http"
 
 	"github.com/labstack/echo"
 )
