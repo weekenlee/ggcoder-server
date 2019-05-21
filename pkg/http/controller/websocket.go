@@ -7,9 +7,10 @@
 package controller
 
 import (
-	"logic"
 	"sync/atomic"
 	"time"
+
+	"github.com/guanggu-coder/ggcoder-server/pkg/logic"
 
 	"github.com/labstack/echo"
 	"github.com/labstack/echo/engine/standard"

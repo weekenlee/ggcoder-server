@@ -8,14 +8,15 @@ package controller
 
 import (
 	"html/template"
-	"http/middleware"
-	"logic"
-	"model"
 	"net/http"
 	"strconv"
-	"util"
 
-	. "http"
+	"github.com/guanggu-coder/ggcoder-server/pkg/http/middleware"
+	"github.com/guanggu-coder/ggcoder-server/pkg/logic"
+	"github.com/guanggu-coder/ggcoder-server/pkg/model"
+	"github.com/guanggu-coder/ggcoder-server/pkg/util"
+
+	. "github.com/guanggu-coder/ggcoder-server/pkg/http"
 
 	"github.com/dchest/captcha"
 	"github.com/labstack/echo"

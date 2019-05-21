@@ -7,10 +7,11 @@
 package controller
 
 import (
-	"logic"
-	"model"
 	"strconv"
 	"time"
+
+	"github.com/guanggu-coder/ggcoder-server/pkg/logic"
+	"github.com/guanggu-coder/ggcoder-server/pkg/model"
 
 	"github.com/labstack/echo"
 	"github.com/polaris1119/goutils"

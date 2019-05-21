@@ -8,13 +8,13 @@ package controller
 
 import (
 	"errors"
-	"http/middleware"
-	"logic"
-	"model"
+	"github.com/guanggu-coder/ggcoder-server/pkg/http/middleware"
+	"github.com/guanggu-coder/ggcoder-server/pkg/logic"
+	"github.com/guanggu-coder/ggcoder-server/pkg/model"
 	"net/http"
 	"strconv"
 
-	. "http"
+	. "github.com/guanggu-coder/ggcoder-server/pkg/http"
 
 	"github.com/labstack/echo"
 	"github.com/polaris1119/echoutils"

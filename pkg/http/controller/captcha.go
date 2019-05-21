@@ -7,7 +7,7 @@
 package controller
 
 import (
-	. "http"
+	. "github.com/guanggu-coder/ggcoder-server/pkg/http"
 
 	"github.com/dchest/captcha"
 	"github.com/labstack/echo"

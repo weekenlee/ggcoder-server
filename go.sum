@@ -35,6 +35,8 @@ github.com/golang/groupcache v0.0.0-20190129154638-5b532d6fd5ef/go.mod h1:cIg4er
 github.com/golang/protobuf v1.2.0/go.mod h1:6lQm79b+lXiMfvg/cZm0SGofjICqVBUtrP5yJMmIC1U=
 github.com/gorilla/context v1.1.1 h1:AWwleXJkX/nhcU9bZSnZoi3h/qGYqQAGhq6zZe/aQW8=
 github.com/gorilla/context v1.1.1/go.mod h1:kBGZzfjB9CEq2AlWe17Uuf7NDRt0dE0s8S51q0aT7Yg=
+github.com/gorilla/feeds v1.1.0 h1:pcgLJhbdYgaUESnj3AmXPcB7cS3vy63+jC/TI14AGXk=
+github.com/gorilla/feeds v1.1.0/go.mod h1:Nk0jZrvPFZX1OBe5NPiddPw7CfwF6Q9eqzaBbaightA=
 github.com/gorilla/schema v1.1.0 h1:CamqUDOFUBqzrvxuz2vEwo8+SUdwsluFh7IlzJh30LY=
 github.com/gorilla/schema v1.1.0/go.mod h1:kgLaKoK1FELgZqMAVxx/5cbj0kT+57qxUrAlIO2eleU=
 github.com/gorilla/securecookie v1.1.1 h1:miw7JPhV+b/lAHSXz4qd/nN9jRiAFV5FwjeKyCS8BvQ=
@@ -77,8 +79,12 @@ github.com/olekukonko/tablewriter v0.0.1/go.mod h1:vsDQFd/mU46D+Z4whnwzcISnGGzXW
 github.com/pkg/errors v0.8.0/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
+github.com/polaris1119/config v0.0.0-20160609095218-06a751e884f3 h1:ql/tT34m2dfi00D38NSRu6us2ykhsDtUsEEFNjEpjBo=
+github.com/polaris1119/config v0.0.0-20160609095218-06a751e884f3/go.mod h1:up6EO6QVWJMpgNMhqqZx2ImgXyfH28qf84Jf66SIm88=
 github.com/polaris1119/config v0.0.0-20160628025248-e4f8b7e9e2ef h1:Hswn/QnK+k/vx3Qw05tkRdHsBOKrnSHYGn5Tb2qDQgM=
 github.com/polaris1119/config v0.0.0-20160628025248-e4f8b7e9e2ef/go.mod h1:up6EO6QVWJMpgNMhqqZx2ImgXyfH28qf84Jf66SIm88=
+github.com/polaris1119/echoutils v0.0.0-20170312113056-5e14d4b37f74 h1:6O7gcATWcXALbDxg5TXjoGekgv+pJcUGck2qZV32i8g=
+github.com/polaris1119/echoutils v0.0.0-20170312113056-5e14d4b37f74/go.mod h1:Yn1ruFUqLnCWCbj6KRNJJ25CJS9cwg11a7di+cxK1Uo=
 github.com/polaris1119/email v0.0.0-20171030115359-9c57dd3e3e7d h1:5Tx8BuKqRGhit6t1VHqOLbSLhxTFZF6DypyyA7nn/lI=
 github.com/polaris1119/email v0.0.0-20171030115359-9c57dd3e3e7d/go.mod h1:3S7Km+d2GftzOJJgrvIGHDtRxm5eUZamHaoUzLZNJX0=
 github.com/polaris1119/goutils v0.0.0-20160602032428-582c98b3184b h1:THcO90yP3NaMbkQmcnKyu8wJBS1iSO3Z7eAo5axqVbA=

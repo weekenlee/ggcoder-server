@@ -8,11 +8,11 @@ package controller
 
 import (
 	"bytes"
-	"db"
-	"global"
+	"github.com/guanggu-coder/ggcoder-server/pkg/db"
+	"github.com/guanggu-coder/ggcoder-server/pkg/global"
 	"html/template"
-	"logic"
-	"model"
+	"github.com/guanggu-coder/ggcoder-server/pkg/logic"
+	"github.com/guanggu-coder/ggcoder-server/pkg/model"
 	"net/http"
 	"net/url"
 	"runtime"

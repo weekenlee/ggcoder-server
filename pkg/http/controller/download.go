@@ -8,8 +8,8 @@ package controller
 
 import (
 	"fmt"
-	"logic"
-	"model"
+	"github.com/guanggu-coder/ggcoder-server/pkg/logic"
+	"github.com/guanggu-coder/ggcoder-server/pkg/model"
 	"net/http"
 	"regexp"
 	"strings"

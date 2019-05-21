@@ -8,13 +8,13 @@ package controller
 
 import (
 	"encoding/json"
-	"logic"
+	"github.com/guanggu-coder/ggcoder-server/pkg/logic"
 	"net/http"
 	"strings"
 
 	"github.com/polaris1119/goutils"
 
-	. "http"
+	. "github.com/guanggu-coder/ggcoder-server/pkg/http"
 
 	"github.com/labstack/echo"
 	"github.com/polaris1119/logger"

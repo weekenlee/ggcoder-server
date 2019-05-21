@@ -8,15 +8,15 @@ package controller
 
 import (
 	"encoding/json"
-	"global"
+	"github.com/guanggu-coder/ggcoder-server/pkg/global"
 	"io"
 	"io/ioutil"
-	"logic"
+	"github.com/guanggu-coder/ggcoder-server/pkg/logic"
 	"net/http"
 	"os"
 	"path/filepath"
 
-	. "http"
+	. "github.com/guanggu-coder/ggcoder-server/pkg/http"
 
 	"github.com/labstack/echo"
 	"github.com/polaris1119/goutils"

@@ -7,11 +7,12 @@
 package controller
 
 import (
-	"logic"
-	"model"
 	"net/http"
 
-	. "http"
+	"github.com/guanggu-coder/ggcoder-server/pkg/logic"
+	"github.com/guanggu-coder/ggcoder-server/pkg/model"
+
+	. "github.com/guanggu-coder/ggcoder-server/pkg/http"
 
 	"github.com/labstack/echo"
 )

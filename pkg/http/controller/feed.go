@@ -8,12 +8,12 @@ package controller
 
 import (
 	"fmt"
-	"logic"
-	"model"
+	"github.com/guanggu-coder/ggcoder-server/pkg/logic"
+	"github.com/guanggu-coder/ggcoder-server/pkg/model"
 	"net/http"
 	"time"
 
-	. "http"
+	. "github.com/guanggu-coder/ggcoder-server/pkg/http"
 
 	"github.com/gorilla/feeds"
 	"github.com/labstack/echo"

@@ -8,9 +8,9 @@ package controller
 
 import (
 	"fmt"
-	"http/middleware"
-	"logic"
-	"model"
+	"github.com/guanggu-coder/ggcoder-server/pkg/http/middleware"
+	"github.com/guanggu-coder/ggcoder-server/pkg/logic"
+	"github.com/guanggu-coder/ggcoder-server/pkg/model"
 	"net/http"
 
 	"github.com/labstack/echo"

@@ -17,6 +17,7 @@ require (
 	github.com/go-xorm/xorm v0.7.1
 	github.com/golang/groupcache v0.0.0-20190129154638-5b532d6fd5ef // indirect
 	github.com/gorilla/context v1.1.1
+	github.com/gorilla/feeds v1.1.0
 	github.com/gorilla/schema v1.1.0
 	github.com/gorilla/sessions v1.1.3
 	github.com/huichen/sego v0.0.0-20180617034105-3f3c8a8cfacc // indirect
@@ -29,7 +30,8 @@ require (
 	github.com/mattn/go-isatty v0.0.7 // indirect
 	github.com/mattn/go-runewidth v0.0.4 // indirect
 	github.com/olekukonko/tablewriter v0.0.1 // indirect
-	github.com/polaris1119/config v0.0.0-20160628025248-e4f8b7e9e2ef
+	github.com/polaris1119/config v0.0.0-20160609095218-06a751e884f3
+	github.com/polaris1119/echoutils v0.0.0-20170312113056-5e14d4b37f74
 	github.com/polaris1119/email v0.0.0-20171030115359-9c57dd3e3e7d
 	github.com/polaris1119/goutils v0.0.0-20160602032428-582c98b3184b
 	github.com/polaris1119/keyword v0.0.0-20170608075927-96ae6735f2f2

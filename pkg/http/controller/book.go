@@ -8,15 +8,15 @@ package controller
 
 import (
 	"html/template"
-	"http/middleware"
-	"logic"
+	"github.com/guanggu-coder/ggcoder-server/pkg/http/middleware"
+	"github.com/guanggu-coder/ggcoder-server/pkg/logic"
 	"net/http"
 
 	"github.com/labstack/echo"
 	"github.com/polaris1119/goutils"
 
-	. "http"
-	"model"
+	. "github.com/guanggu-coder/ggcoder-server/pkg/http"
+	"github.com/guanggu-coder/ggcoder-server/pkg/model"
 )
 
 // 在需要评论（喜欢）且要回调的地方注册评论（喜欢）对象

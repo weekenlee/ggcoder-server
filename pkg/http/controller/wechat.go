@@ -8,8 +8,9 @@ package controller
 
 import (
 	"io/ioutil"
-	"logic"
 	"net/http"
+
+	"github.com/guanggu-coder/ggcoder-server/pkg/logic"
 
 	"github.com/labstack/echo"
 )

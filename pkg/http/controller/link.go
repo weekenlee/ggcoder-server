@@ -7,7 +7,7 @@
 package controller
 
 import (
-	"logic"
+	"github.com/guanggu-coder/ggcoder-server/pkg/logic"
 
 	"github.com/labstack/echo"
 )

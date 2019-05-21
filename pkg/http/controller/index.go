@@ -9,14 +9,14 @@ package controller
 import (
 	"bytes"
 	"html/template"
-	"logic"
+	"github.com/guanggu-coder/ggcoder-server/pkg/logic"
 	"math/rand"
-	"model"
+	"github.com/guanggu-coder/ggcoder-server/pkg/model"
 	"net/http"
 	"net/url"
 	"strings"
 
-	. "http"
+	. "github.com/guanggu-coder/ggcoder-server/pkg/http"
 
 	"github.com/labstack/echo"
 	"github.com/polaris1119/config"

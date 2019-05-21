@@ -7,11 +7,12 @@
 package controller
 
 import (
-	"http/middleware"
-	"logic"
-	"model"
 	"net/http"
 	"strconv"
+
+	"github.com/guanggu-coder/ggcoder-server/pkg/http/middleware"
+	"github.com/guanggu-coder/ggcoder-server/pkg/logic"
+	"github.com/guanggu-coder/ggcoder-server/pkg/model"
 
 	"github.com/labstack/echo"
 	"github.com/polaris1119/times"

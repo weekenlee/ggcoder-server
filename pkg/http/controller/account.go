@@ -8,17 +8,17 @@ package controller
 
 import (
 	"html/template"
-	. "http/internal/helper"
-	"http/middleware"
-	"logic"
-	"model"
+	. "github.com/guanggu-coder/ggcoder-server/pkg/http/internal/helper"
+	"github.com/guanggu-coder/ggcoder-server/pkg/http/middleware"
+	"github.com/guanggu-coder/ggcoder-server/pkg/logic"
+	"github.com/guanggu-coder/ggcoder-server/pkg/model"
 	"net/http"
 	"net/url"
 	"strings"
 	"time"
-	"util"
+	"github.com/guanggu-coder/ggcoder-server/pkg/util"
 
-	. "http"
+	. "github.com/guanggu-coder/ggcoder-server/pkg/http"
 
 	"github.com/dchest/captcha"
 	"github.com/gorilla/sessions"

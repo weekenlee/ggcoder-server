@@ -7,18 +7,20 @@
 package controller
 
 import (
-	"http/middleware"
-	"logic"
 	"net/http"
-	"util"
+
+	"github.com/guanggu-coder/ggcoder-server/pkg/http/middleware"
+	"github.com/guanggu-coder/ggcoder-server/pkg/logic"
+	"github.com/guanggu-coder/ggcoder-server/pkg/util"
 
 	"github.com/dchest/captcha"
 	"github.com/labstack/echo"
 	"github.com/polaris1119/goutils"
 
 	"html/template"
-	. "http"
-	"model"
+
+	. "github.com/guanggu-coder/ggcoder-server/pkg/http"
+	"github.com/guanggu-coder/ggcoder-server/pkg/model"
 )
 
 // 在需要评论（喜欢）且要回调的地方注册评论（喜欢）对象
