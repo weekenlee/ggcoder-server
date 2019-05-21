@@ -7,8 +7,8 @@
 package main
 
 import (
-	"math/rand"
 	"github.com/guanggu-coder/ggcoder-server/pkg/server"
+	"math/rand"
 	"time"
 
 	"github.com/polaris1119/config"
