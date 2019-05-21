@@ -22,8 +22,8 @@ require (
 	github.com/huichen/sego v0.0.0-20180617034105-3f3c8a8cfacc // indirect
 	github.com/jaytaylor/html2text v0.0.0-20180606194806-57d518f124b0
 	github.com/jmcvetta/randutil v0.0.0-20150817122601-2bb1b664bcff // indirect
-	github.com/labstack/echo v3.3.10+incompatible
-	github.com/labstack/gommon v0.2.8 // indirect
+	github.com/labstack/echo v2.0.0+incompatible
+	github.com/labstack/gommon v0.0.4-0.20160608022355-741a209b277d // indirect
 	github.com/lunny/html2md v0.0.0-20181018071239-7d234de44546
 	github.com/mattn/go-colorable v0.1.1 // indirect
 	github.com/mattn/go-isatty v0.0.7 // indirect
