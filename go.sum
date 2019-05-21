@@ -13,6 +13,16 @@ github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSs
 github.com/dchest/captcha v0.0.0-20170622155422-6a29415a8364 h1:U+BMqUt8LFgyrF0/NKgPZdr1sGZ3j6uBECpOGcISpFI=
 github.com/dchest/captcha v0.0.0-20170622155422-6a29415a8364/go.mod h1:QGrK8vMWWHQYQ3QU9bw9Y9OPNfxccGzfb41qjvVeXtY=
 github.com/denisenkom/go-mssqldb v0.0.0-20181014144952-4e0d7dc8888f/go.mod h1:xN/JuLBIz4bjkxNmByTiV1IbhfnYb6oo99phBn4Eqhc=
+github.com/dgrijalva/jwt-go v3.2.0+incompatible h1:7qlOGliEKZXTDg6OTjfoBKDXWrumCAMpl/TFQ4/5kLM=
+github.com/dgrijalva/jwt-go v3.2.0+incompatible/go.mod h1:E3ru+11k8xSBh+hMPgOLZmtrrCbhqsmaPHjLKYnJCaQ=
+github.com/facebookgo/clock v0.0.0-20150410010913-600d898af40a h1:yDWHCSQ40h88yih2JAcL6Ls/kVkSE8GFACTGVnMPruw=
+github.com/facebookgo/clock v0.0.0-20150410010913-600d898af40a/go.mod h1:7Ga40egUymuWXxAe151lTNnCv97MddSOVsjpPPkityA=
+github.com/facebookgo/grace v0.0.0-20180706040059-75cf19382434 h1:mOp33BLbcbJ8fvTAmZacbBiOASfxN+MLcLxymZCIrGE=
+github.com/facebookgo/grace v0.0.0-20180706040059-75cf19382434/go.mod h1:KigFdumBXUPSwzLDbeuzyt0elrL7+CP7TKuhrhT4bcU=
+github.com/facebookgo/httpdown v0.0.0-20180706035922-5979d39b15c2 h1:nXeeRHmgNgjLxi+7dY9l9aDvSS1uwVlNLqUWIY4Ath0=
+github.com/facebookgo/httpdown v0.0.0-20180706035922-5979d39b15c2/go.mod h1:TUV/fX3XrTtBQb5+ttSUJzcFgLNpILONFTKmBuk5RSw=
+github.com/facebookgo/stats v0.0.0-20151006221625-1b76add642e4 h1:0YtRCqIZs2+Tz49QuH6cJVw/IFqzo39gEqZ0iYLxD2M=
+github.com/facebookgo/stats v0.0.0-20151006221625-1b76add642e4/go.mod h1:vsJz7uE339KUCpBXx3JAJzSRH7Uk4iGGyJzR529qDIA=
 github.com/fatih/structs v1.1.0 h1:Q7juDM0QtcnhCpeyLGQKyg4TOIghuNXrkL32pHAUMxo=
 github.com/fatih/structs v1.1.0/go.mod h1:9NiDSp5zOcgEDl+j00MP/WkGVPOlPRLejGD8Ga6PJ7M=
 github.com/garyburd/redigo v1.6.0 h1:0VruCpn7yAIIu7pWVClQC8wxCJEcG3nyzpMSHKi1PQc=
@@ -93,6 +103,10 @@ github.com/polaris1119/keyword v0.0.0-20170608075927-96ae6735f2f2 h1:63TyJE7nj3e
 github.com/polaris1119/keyword v0.0.0-20170608075927-96ae6735f2f2/go.mod h1:YYx1sYXgS43cG1iH0cXYFcibESl8azhUrA6W10gYb9E=
 github.com/polaris1119/logger v0.0.0-20170422061149-0233d014769e h1:HSeLmpKe7eny4fT5tdnYfQffWvx6aKCdzIcW/MZWt3I=
 github.com/polaris1119/logger v0.0.0-20170422061149-0233d014769e/go.mod h1:7wFzOsSeMeuwhnZItJVfX1WClNpCyXuO0kj+ifdK+LQ=
+github.com/polaris1119/middleware v0.0.0-20160608140053-50158e4104f1 h1:Sr74w28eXIOwsrG7pSNdbVhYjxWY474mJfRUPGPlgvU=
+github.com/polaris1119/middleware v0.0.0-20160608140053-50158e4104f1/go.mod h1:9qyAASpDEEzNuL2OSGxcTm9hLU4M8gl4Am4z5JE92Bc=
+github.com/polaris1119/middleware v0.0.0-20170422072158-4876473158db h1:Y9qVBlerEJEZgyh8QrUP5/9frNJXZRvkiuDxprdn4uw=
+github.com/polaris1119/middleware v0.0.0-20170422072158-4876473158db/go.mod h1:9qyAASpDEEzNuL2OSGxcTm9hLU4M8gl4Am4z5JE92Bc=
 github.com/polaris1119/nosql v0.0.0-20181019111233-3852ef28d084 h1:tgfnz7bUVQ0MtsvaT3R47E083V7FVP0GIDsmXhkTdD0=
 github.com/polaris1119/nosql v0.0.0-20181019111233-3852ef28d084/go.mod h1:AQkEEdvgfOXmx5L7HLvGLZPWnbNa/EIOEpMhTTOor3g=
 github.com/polaris1119/set v0.1.0 h1:Uol42yh0yIZMO/QMzrI4FtZj4U/R4uL41gK3MWrgebI=

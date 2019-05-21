@@ -7,12 +7,12 @@
 package main
 
 import (
-	"global"
-	"http/controller"
-	"http/controller/admin"
-	"http/controller/app"
+	"github.com/guanggu-coder/ggcoder-server/pkg/global"
+	"github.com/guanggu-coder/ggcoder-server/pkg/http/controller"
+	"github.com/guanggu-coder/ggcoder-server/pkg/http/controller/admin"
+	"github.com/guanggu-coder/ggcoder-server/pkg/http/controller/app"
 	"io/ioutil"
-	"logic"
+	"github.com/guanggu-coder/ggcoder-server/pkg/logic"
 	"math/rand"
 	"os"
 	"path/filepath"
@@ -21,7 +21,7 @@ import (
 
 	. "github.com/polaris1119/config"
 
-	pwm "http/middleware"
+	pwm "github.com/guanggu-coder/ggcoder-server/pkg/http/middleware"
 
 	"github.com/fatih/structs"
 	"github.com/labstack/echo"

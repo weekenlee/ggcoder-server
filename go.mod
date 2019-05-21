@@ -9,6 +9,11 @@ require (
 	github.com/Unknwon/goconfig v0.0.0-20190425194916-3dba17dd7b9e // indirect
 	github.com/adamzy/cedar-go v0.0.0-20170805034717-80a9c64b256d // indirect
 	github.com/dchest/captcha v0.0.0-20170622155422-6a29415a8364
+	github.com/dgrijalva/jwt-go v3.2.0+incompatible // indirect
+	github.com/facebookgo/clock v0.0.0-20150410010913-600d898af40a // indirect
+	github.com/facebookgo/grace v0.0.0-20180706040059-75cf19382434
+	github.com/facebookgo/httpdown v0.0.0-20180706035922-5979d39b15c2 // indirect
+	github.com/facebookgo/stats v0.0.0-20151006221625-1b76add642e4 // indirect
 	github.com/fatih/structs v1.1.0
 	github.com/garyburd/redigo v1.6.0
 	github.com/go-sql-driver/mysql v1.4.1
@@ -36,6 +41,7 @@ require (
 	github.com/polaris1119/goutils v0.0.0-20160602032428-582c98b3184b
 	github.com/polaris1119/keyword v0.0.0-20170608075927-96ae6735f2f2
 	github.com/polaris1119/logger v0.0.0-20170422061149-0233d014769e
+	github.com/polaris1119/middleware v0.0.0-20160608140053-50158e4104f1
 	github.com/polaris1119/nosql v0.0.0-20181019111233-3852ef28d084
 	github.com/polaris1119/set v0.1.1-0.20160423093427-654439414ced
 	github.com/polaris1119/slices v0.0.0-20160517071324-6ecacdb3cd38

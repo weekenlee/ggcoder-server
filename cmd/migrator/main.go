@@ -6,7 +6,7 @@
 package main
 
 import (
-	"server"
+	"github.com/guanggu-coder/ggcoder-server/pkg/server"
 
 	"github.com/polaris1119/config"
 	"github.com/polaris1119/logger"

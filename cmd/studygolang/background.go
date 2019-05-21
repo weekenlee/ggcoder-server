@@ -7,12 +7,12 @@
 package main
 
 import (
-	"db"
+	"github.com/guanggu-coder/ggcoder-server/pkg/db"
 	"flag"
-	"global"
-	"logic"
-	"model"
-	"server"
+	"github.com/guanggu-coder/ggcoder-server/pkg/global"
+	"github.com/guanggu-coder/ggcoder-server/pkg/logic"
+	"github.com/guanggu-coder/ggcoder-server/pkg/model"
+	"github.com/guanggu-coder/ggcoder-server/pkg/server"
 	"time"
 
 	"github.com/polaris1119/config"
