@@ -33,14 +33,14 @@ require (
 	github.com/polaris1119/keyword v0.0.0-20170608075927-96ae6735f2f2
 	github.com/polaris1119/logger v0.0.0-20170422061149-0233d014769e
 	github.com/polaris1119/nosql v0.0.0-20181019111233-3852ef28d084
-	github.com/polaris1119/set v0.1.0
+	github.com/polaris1119/set v0.1.1-0.20160423093427-654439414ced
 	github.com/polaris1119/slices v0.0.0-20160517071324-6ecacdb3cd38
 	github.com/polaris1119/times v0.0.0-20160420102536-14f7f3ba487e
 	github.com/qiniu/api.v6 v6.0.9+incompatible
 	github.com/qiniu/bytes v0.0.0-20140728010635-4887e7b2bde3 // indirect
 	github.com/qiniu/rpc v0.0.0-20140728010754-30c22466d920 // indirect
 	github.com/ssor/bom v0.0.0-20170718123548-6386211fdfcf // indirect
-	github.com/sundy-li/html2article v0.0.0-20180131134645-09ac198090c2
+	github.com/sundy-li/html2article v0.0.0-20170724020440-d0b6c083441f
 	github.com/tidwall/gjson v1.2.1
 	github.com/tidwall/match v1.0.1 // indirect
 	github.com/tidwall/pretty v0.0.0-20190325153808-1166b9ac2b65 // indirect

@@ -81,6 +81,8 @@ github.com/polaris1119/nosql v0.0.0-20181019111233-3852ef28d084 h1:tgfnz7bUVQ0Mt
 github.com/polaris1119/nosql v0.0.0-20181019111233-3852ef28d084/go.mod h1:AQkEEdvgfOXmx5L7HLvGLZPWnbNa/EIOEpMhTTOor3g=
 github.com/polaris1119/set v0.1.0 h1:Uol42yh0yIZMO/QMzrI4FtZj4U/R4uL41gK3MWrgebI=
 github.com/polaris1119/set v0.1.0/go.mod h1:f3pW74DeWib9bLGgMImip5zikwTB5dQ53JVrmT3CYrQ=
+github.com/polaris1119/set v0.1.1-0.20160423093427-654439414ced h1:5E6fZkU0PW8RIoOOOQq+NJ6ICZDtk/3mON49Ezl0raY=
+github.com/polaris1119/set v0.1.1-0.20160423093427-654439414ced/go.mod h1:f3pW74DeWib9bLGgMImip5zikwTB5dQ53JVrmT3CYrQ=
 github.com/polaris1119/slices v0.0.0-20160517071324-6ecacdb3cd38 h1:DUG5gZoTQGtKgQogadMFJ2hUCchqPBchezdHsgncEj4=
 github.com/polaris1119/slices v0.0.0-20160517071324-6ecacdb3cd38/go.mod h1:ZHrklmzhHyC2VcV6ef41IXDRFKyUKe0XtTrYqbMe50Y=
 github.com/polaris1119/times v0.0.0-20160420102536-14f7f3ba487e h1:t2A6UPUvJrNLdtIJAPFlCUkOAsqm7jYdGb1X82WAu/g=
@@ -97,6 +99,8 @@ github.com/ssor/bom v0.0.0-20170718123548-6386211fdfcf h1:pvbZ0lM0XWPBqUKqFU8cma
 github.com/ssor/bom v0.0.0-20170718123548-6386211fdfcf/go.mod h1:RJID2RhlZKId02nZ62WenDCkgHFerpIOmW0iT7GKmXM=
 github.com/stretchr/testify v1.2.2 h1:bSDNvY7ZPG5RlJ8otE/7V6gMiyenm9RtJ7IUVIAoJ1w=
 github.com/stretchr/testify v1.2.2/go.mod h1:a8OnRcib4nhh0OaRAV+Yts87kKdq0PP7pXfy6kDkUVs=
+github.com/sundy-li/html2article v0.0.0-20170724020440-d0b6c083441f h1:zx8a5HQgs9SltyIFdhA+Y94Wgk9D5agl/UMN2+oHiKM=
+github.com/sundy-li/html2article v0.0.0-20170724020440-d0b6c083441f/go.mod h1:qEPne4GSiuwCg1E5EuIjpk+O6ZAMwpDZnzqu1I5WEGU=
 github.com/sundy-li/html2article v0.0.0-20180131134645-09ac198090c2 h1:oKj2rhPl8vQ6SThsvFSuMDEbWCqPyxy/CGCNupPWCfY=
 github.com/sundy-li/html2article v0.0.0-20180131134645-09ac198090c2/go.mod h1:qEPne4GSiuwCg1E5EuIjpk+O6ZAMwpDZnzqu1I5WEGU=
 github.com/tidwall/gjson v1.2.1 h1:j0efZLrZUvNerEf6xqoi0NjWMK5YlLrR7Guo/dxY174=
